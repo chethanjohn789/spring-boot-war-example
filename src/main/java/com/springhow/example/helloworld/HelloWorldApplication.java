@@ -23,7 +23,7 @@ public class HelloWorldApplication extends SpringBootServletInitializer {
 
     @RequestMapping("/")
     String helloWorld() {
-        return "This is My First Deployment In Tomcat9 by using Jenkin /n Thank you Sir";
+        return "This is My First Deployment In Tomcat9 by using Jenkin \n Thank you Sir";
     }
 
 }
